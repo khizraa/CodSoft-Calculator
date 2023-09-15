@@ -1,0 +1,83 @@
+body{margin: 0;
+padding: 0;
+background: linear-gradient(to right, #805a5a, #7c4b4b, #452028);}
+
+.div-1{display: flex;
+justify-content: center;
+text-align: center;
+margin-top: 10vw;
+}
+
+.div-2{background-color: #000000;
+display: inline-block;
+width: 20vw;
+height: 30vw;}
+
+input[type="text"]{background-color: #242020;
+    border: 1px solid #242020;
+    height: 6vw;
+    width: 16vw;
+outline: none;
+font-size: 2vw;
+color: rgb(184, 163, 163);margin-top: 1vw;
+margin-bottom: 1vw;}
+
+/* .div-3{margin-top: 9vw;} */
+
+.button{background-color: #452028;
+border: none;
+width: 3vw;
+height: 3vw;
+margin: 0.5vw;
+font-size: 1vw;
+color: rgb(182, 158, 158);
+border-radius: 50%;
+}
+
+
+@media (max-width:900px){
+    .div-2{width: 38vw;
+    height: 55vw;}
+
+    input[type="text"]{
+        width: 32vw;
+        height: 10vw;
+        margin-top: 2vw;
+        font-size: 6vw;
+    }
+
+    .button{width: 7vw;
+    height: 7vw;
+font-size: 2vw;}
+}
+
+@media  (max-width: 700px){
+    .div-1{margin-top: 16vw;}
+    
+}
+
+@media  (max-width: 650px){
+    .div-1{margin-top: 11vw;}
+    
+}
+
+@media (max-width:451px){
+
+    .div-2{height:105vw ;
+    width: 68vw;}
+
+    input[type="text"]{
+        width: 58vw;
+        height: 19vw;
+        font-size: 9vw;
+        margin-top: 5vw;
+        margin-bottom: 4vw;
+    }
+
+    .button{width: 13vw;
+    height: 12vw;
+font-size: 4vw;}
+}
+
+
+
